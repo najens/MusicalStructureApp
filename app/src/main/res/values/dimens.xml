@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="list_height_dimen">52dp</dimen>
+    <dimen name="songartist_height_dimen">20dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">6dp</dimen>
+    <dimen name="activity_vertical_margin">6dp</dimen>
+    <!-- Artist Page cover image height -->
+    <dimen name="cover_height_dimen">220dp</dimen>
+</resources>

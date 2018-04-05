@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteBackground"
+    tools:context="com.example.android.musicalstructureapp.MainActivity">
+
+    <LinearLayout style="@style/linear_layout_style">
+
+        <TextView
+            android:id="@+id/artists_textview"
+            style="@style/category_list_style"
+            android:text="@string/artists_string" />
+
+        <View style="@style/divider_style" />
+
+        <TextView
+            android:id="@+id/albums_textview"
+            style="@style/category_list_style"
+            android:text="@string/albums_string" />
+
+        <View style="@style/divider_style" />
+
+        <TextView
+            android:id="@+id/songs_textview"
+            style="@style/category_list_style"
+            android:text="@string/songs_string" />
+
+        <View style="@style/divider_style" />
+
+        <TextView
+            android:id="@+id/playlists_textview"
+            style="@style/category_list_style"
+            android:text="@string/playlists_string" />
+
+        <View style="@style/divider_style" />
+
+        <TextView
+            android:id="@+id/main_activity_heading_textview"
+            style="@style/activty_headings_style"
+            android:text="@string/main_activity_heading" />
+
+        <TextView
+            android:id="@+id/main_activty_explanation_textview"
+            style="@style/activty_explanations_style"
+            android:text="@string/main_activity_explanation" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/relative_layout_style"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorCategoriesText">
+
+        <ImageView
+            android:id="@+id/now_playing_imageview"
+            style="@style/player_images_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/img_coldplay_album4" />
+
+        <TextView
+            android:id="@+id/now_playing_textview"
+            style="@style/player_text_style"
+            android:layout_toEndOf="@id/now_playing_imageview"
+            android:layout_toRightOf="@+id/now_playing_imageview"
+            android:text="@string/now_playing_string" />
+
+        <ImageView
+            android:id="@+id/play_imageview"
+            style="@style/player_images_style"
+            android:layout_toLeftOf="@+id/next_imageview"
+            android:src="@drawable/img_play_dark" />
+
+        <ImageView
+            android:id="@+id/next_imageview"
+            style="@style/player_images_style"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/img_nextsong_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/now_playing_imageview"
+            android:background="#F5F5F5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_activity_main_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/main_string" />
+
+            <Button
+                android:id="@+id/main_activity_art_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/art_string" />
+
+            <Button
+                android:id="@+id/main_activity_artpage_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/artpage_string" />
+
+            <Button
+                android:id="@+id/main_activity_nowplay_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/nowplay_string" />
+
+            <Button
+                android:id="@+id/main_activity_pay_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/pay_string" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkBackground"
+    tools:context="com.example.android.musicalstructureapp.NowPlaying">
+
+    <LinearLayout
+        style="@style/linear_layout_style"
+        android:background="@color/colorDarkBackground">
+
+        <ImageView
+            android:id="@+id/colplay_now_playing_imageview"
+            style="@style/now_playing_cover_style"
+            android:src="@drawable/img_coldplay_album4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:id="@+id/song_seekbar"
+                style="@style/seekbar_style"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/time_elapsed_textview"
+                style="@style/now_playing_time_style"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/song_seekbar"
+                android:text="@string/time_expired" />
+
+            <TextView
+                android:id="@+id/time_remaining_textview"
+                style="@style/now_playing_time_style"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/song_seekbar"
+                android:text="@string/time_remaining" />
+
+            <TextView
+                android:id="@+id/song_title_textview"
+                style="@style/now_playing_song_style"
+                android:layout_below="@id/time_elapsed_textview"
+                android:layout_centerHorizontal="true"
+                android:text="@string/now_playing_string" />
+
+            <ImageView
+                android:id="@+id/hamburger_imageview"
+                style="@style/hamburger_style"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/time_elapsed_textview"
+                android:src="@drawable/img_hamburger_white" />
+
+            <TextView
+                android:id="@+id/artist_title_textview"
+                style="@style/now_playing_artist_style"
+                android:layout_below="@id/song_title_textview"
+                android:layout_centerHorizontal="true"
+                android:text="@string/coldplay_string" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/artist_title_textview"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/previous_song_imageview"
+                    style="@style/previous_song_style"
+                    android:src="@drawable/img_previoussong_white" />
+
+                <ImageView
+                    android:id="@+id/play_imageview"
+                    style="@style/play_song_style"
+                    android:src="@drawable/img_play_white" />
+
+                <ImageView
+                    android:id="@+id/next_song_imageview"
+                    style="@style/next_song_style"
+                    android:src="@drawable/img_nextsong_white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/nowplaying_activity_heading_textview"
+            style="@style/activty_headings_style"
+            android:text="@string/now_playing_heading" />
+
+        <TextView
+            android:id="@+id/nowplaying_activty_explanation_textview"
+            style="@style/activty_explanations_style"
+            android:text="@string/nowplaying_activity_explanation" />
+
+        <RelativeLayout
+            style="@style/relative_layout_style">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentBottom="true"
+                android:background="#F5F5F5">
+
+                <Button
+                    android:id="@+id/nowplaying_activity_main_btn"
+                    style="@style/menu_buttons_style"
+                    android:text="@string/main_string"/>
+
+                <Button
+                    android:id="@+id/nowplaying_activity_art_btn"
+                    style="@style/menu_buttons_style"
+                    android:text="@string/art_string"/>
+
+                <Button
+                    android:id="@+id/nowplaying_activity_artpage_btn"
+                    style="@style/menu_buttons_style"
+                    android:text="@string/artpage_string"/>
+
+                <Button
+                    android:id="@+id/nowplaying_activity_nowplay_btn"
+                    style="@style/menu_buttons_style"
+                    android:text="@string/nowplay_string"/>
+
+                <Button
+                    android:id="@+id/nowplaying_activity_pay_btn"
+                    style="@style/menu_buttons_style"
+                    android:text="@string/pay_string"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

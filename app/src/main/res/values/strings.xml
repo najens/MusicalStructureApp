@@ -1,0 +1,80 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Musical Structure App</string>
+    <!-- Title for main activity. [CHAR LIMIT=12] -->
+    <string name="library_string">Library</string>
+    <!-- List of library categories [CHAR LIMIT=20] -->
+    <string name="artists_string">Artists</string>
+    <string name="albums_string">Albums</string>
+    <string name="songs_string">Songs</string>
+    <string name="playlists_string">Playlists</string>
+    <!-- Now Playing Title [CHAR LIMIT=20] -->
+    <string name="now_playing_string">A Sky Full of Stars</string>
+    <!-- Artists titles [CHAR LIMIT=20] -->
+    <string name="coldplay_string">Coldplay</string>
+    <string name="edsheeran_string">Ed Sheeran</string>
+    <string name="jamesbay_string">James Bay</string>
+    <string name="johnlegend_string">John Legend</string>
+    <string name="chainsmokers_coldplay_string">The Chainsmokers And Coldplay</string>
+    <!-- Artist Page Categories [CHAR LIMIT=20] -->
+    <string name="popular_songs_string">Popular Songs</string>
+    <string name="popular_albums_string">Popular Albums</string>
+    <!-- Song titles [CHAR LIMIT=20] -->
+    <string name="coldplay_song1_string">Something Just Like This</string>
+    <string name="coldplay_song2_string">Hymn For The Weekend</string>
+    <string name="coldplay_song3_string">Adventure Of A Lifetime</string>
+    <string name="coldplay_song4_string">Viva La Vida</string>
+    <!-- Song time elapsed [CHAR LIMIT=20] -->
+    <string name="time_expired">0:00</string>
+    <string name="time_remaining">-4:27</string>
+    <!-- Song titles [CHAR LIMIT=20] -->
+    <string name="payment_string">Payment</string>
+    <!-- Now Playing Toasts [CHAR LIMIT=20] -->
+    <string name="play_previous_string">Play Previous Song</string>
+    <!-- Pop up list -->
+    <string name="download_string">Download</string>
+    <string name="buy_string">Buy</string>
+    <string name="view_album_string">View Album</string>
+    <string name="view_artist_string">View Artist</string>
+    <!-- Pop up toasts -->
+    <string name="download_toast">Download A Sky Full Of Stars</string>
+    <string name="view_album_toast">View Album Page</string>
+    <!-- Arstist toasts -->
+    <string name="open_edsheeran_toast">Open Ed Sheeran Artist Page</string>
+    <string name="open_jamesbay_toast">Open James Bay Artist Page</string>
+    <string name="open_johnlegend_toast">Open John Legend Artist Page</string>
+    <!-- Artist Page toasts -->
+    <string name="play_song1_toast">Play Something Just Like This</string>
+    <string name="play_song2_toast">Play Hymn For The Weekend</string>
+    <string name="play_song3_toast">Play Adventure Of A Lifetime</string>
+    <string name="play_song4_toast">Play Viva La Vida</string>
+    <!-- Now Playing toasts -->
+    <string name="play_pause_toast">Play/Pause A Sky Full Of Stars</string>
+    <string name="play_next_toast">Play Next Song</string>
+    <!-- Main Activity toasts -->
+    <string name="open_albums_toast">Open Albums Page</string>
+    <string name="open_songs_toast">Open Songs Page</string>
+    <string name="open_playlists_toast">Open Playlists Page</string>
+    <!-- Payment strings -->
+    <string name="price_string">$1.99</string>
+    <!-- Payment toasts -->
+    <string name="braintree_toast">Open Braintree Purchase Activity</string>
+    <!-- Explanation Of Activities -->
+    <string name="main_activity_explanation">This is the main activty page which allows you to navigate to the other activities to view your lirary by artists, albums, songs, or playlists. You can also change songs or go to the now playing page here by using the player below. Each textview and image has an onClickListener and will either navigate you to a new activty or provide a toast explaining what clicking the item would do on the completed app.</string>
+    <string name="artists_activity_explanation">This is the artists activity which allows you to view all of the artists in you library and navigate to their individual pages which contain their music, songs, albums, etc.</string>
+    <string name="artistpage_activity_explanation">This is the artist page activty which allows you to play songs by clicking them and browse the artist\s popular songs and albums as well as all of their music in your library.</string>
+    <string name="nowplaying_activity_explanation">This is the now playing activity which contains the main music player. Here you can play or pause the current song. Go to the previous or next song. And access other actions such as buying or downloading the song by clicking on the hamburger.</string>
+    <string name="payment_activity_explanation">This is the payment activity. When you click buy song from the artist or song page or from the now playing page, you will come to this screen which will list the price. When you click the buy button a new activity will open which will contain the option to pay with PayPal or with a credit card using the braintree developers sdk for android. You will set up a client with the token, add drop in UI, and set up a simple server to use this PayPal service. Instructions are here (https://developers.braintreepayments.com/start/hello-client/android/v1)</string>
+    <!-- Headings for activities -->
+    <string name="artist_page_heading">Artist Page Activity</string>
+    <string name="artists_heading">Artists Activity</string>
+    <string name="main_activity_heading">Main Activity</string>
+    <string name="now_playing_heading">Now Playing Activity</string>
+    <string name="payment_heading">Payment Activity</string>
+    <!-- Menu Bar Buttons -->
+    <string name="main_string">Main</string>
+    <string name="art_string">Art</string>
+    <string name="artpage_string">Art Page</string>
+    <string name="nowplay_string">Now Play</string>
+    <string name="pay_string">Pay</string>
+</resources>

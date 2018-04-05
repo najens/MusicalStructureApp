@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructureapp.Payment">
+
+    <TextView
+        android:id="@+id/purchase_name"
+        style="@style/purchase_style"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/now_playing_string" />
+
+    <TextView
+        android:id="@+id/purchase_price"
+        style="@style/purchase_style"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/price_string" />
+
+    <Button
+        android:id="@+id/buy_song"
+        style="@style/buy_button_style"
+        android:layout_below="@id/purchase_name"
+        android:text="@string/buy_string" />
+
+    <TextView
+        android:id="@+id/payment_activity_heading_textview"
+        style="@style/activty_headings_style"
+        android:layout_below="@id/buy_song"
+        android:text="@string/payment_heading" />
+
+    <TextView
+        android:id="@+id/payment_activty_explanation_textview"
+        style="@style/activty_explanations_style"
+        android:layout_below="@id/payment_activity_heading_textview"
+        android:text="@string/payment_activity_explanation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F5F5F5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/payment_activity_main_btn"
+            style="@style/menu_buttons_style"
+            android:text="@string/main_string" />
+
+        <Button
+            android:id="@+id/payment_activity_art_btn"
+            style="@style/menu_buttons_style"
+            android:text="@string/art_string" />
+
+        <Button
+            android:id="@+id/payment_activity_artpage_btn"
+            style="@style/menu_buttons_style"
+            android:text="@string/artpage_string" />
+
+        <Button
+            android:id="@+id/payment_activity_nowplay_btn"
+            style="@style/menu_buttons_style"
+            android:text="@string/nowplay_string" />
+
+        <Button
+            android:id="@+id/payment_activity_pay_btn"
+            style="@style/menu_buttons_style"
+            android:text="@string/pay_string" />
+
+    </LinearLayout>
+
+</RelativeLayout>

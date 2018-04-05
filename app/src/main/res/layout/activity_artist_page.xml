@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout_style"
+    tools:context="com.example.android.musicalstructureapp.ArtistPage">
+
+    <TextView
+        android:id="@+id/popularsongs_textview"
+        style="@style/artist_category_style"
+        android:text="@string/popular_songs_string" />
+
+    <View style="@style/divider_style" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/coldplay_image1_imageview"
+            style="@style/album_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/img_coldplay_album1" />
+
+        <TextView
+            android:id="@+id/coldplay_song1_textview"
+            style="@style/song_style"
+            android:layout_toEndOf="@id/coldplay_image1_imageview"
+            android:layout_toRightOf="@id/coldplay_image1_imageview"
+            android:text="@string/coldplay_song1_string" />
+
+        <TextView
+            android:id="@+id/coldplay_artist1_textview"
+            style="@style/artists_style"
+            android:layout_below="@id/coldplay_song1_textview"
+            android:layout_toEndOf="@id/coldplay_image1_imageview"
+            android:layout_toRightOf="@id/coldplay_image1_imageview"
+            android:text="@string/chainsmokers_coldplay_string" />
+
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/coldplay_image2_imageview"
+            style="@style/album_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/img_coldplay_album2" />
+
+        <TextView
+            android:id="@+id/coldplay_song2_textview"
+            style="@style/song_style"
+            android:layout_toEndOf="@id/coldplay_image2_imageview"
+            android:layout_toRightOf="@id/coldplay_image2_imageview"
+            android:text="@string/coldplay_song2_string" />
+
+        <TextView
+            android:id="@+id/coldplay_artist2_textview"
+            style="@style/artists_style"
+            android:layout_below="@id/coldplay_song2_textview"
+            android:layout_toEndOf="@id/coldplay_image2_imageview"
+            android:layout_toRightOf="@id/coldplay_image2_imageview"
+            android:text="@string/coldplay_string" />
+
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/coldplay_image3_imageview"
+            style="@style/album_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/img_coldplay_album2" />
+
+        <TextView
+            android:id="@+id/coldplay_song3_textview"
+            style="@style/song_style"
+            android:layout_toEndOf="@id/coldplay_image3_imageview"
+            android:layout_toRightOf="@id/coldplay_image3_imageview"
+            android:text="@string/coldplay_song3_string" />
+
+        <TextView
+            android:id="@+id/coldplay_artist3_textview"
+            style="@style/artists_style"
+            android:layout_below="@id/coldplay_song3_textview"
+            android:layout_toEndOf="@id/coldplay_image3_imageview"
+            android:layout_toRightOf="@id/coldplay_image3_imageview"
+            android:text="@string/coldplay_string" />
+
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/coldplay_image4_imageview"
+            style="@style/album_image_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/img_coldplay_album3" />
+
+        <TextView
+            android:id="@+id/coldplay_song4_textview"
+            style="@style/song_style"
+            android:layout_toEndOf="@id/coldplay_image4_imageview"
+            android:layout_toRightOf="@id/coldplay_image4_imageview"
+            android:text="@string/coldplay_song4_string" />
+
+        <TextView
+            android:id="@+id/coldplay_artist4_textview"
+            style="@style/artists_style"
+            android:layout_below="@id/coldplay_song4_textview"
+            android:layout_toEndOf="@id/coldplay_image4_imageview"
+            android:layout_toRightOf="@id/coldplay_image4_imageview"
+            android:text="@string/coldplay_string" />
+
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+    <TextView
+        android:id="@+id/popular_albums_textview"
+        style="@style/artist_category_style"
+        android:text="@string/popular_albums_string" />
+
+    <TextView
+        android:id="@+id/artistpage_activity_heading_textview"
+        style="@style/activty_headings_style"
+        android:text="@string/artist_page_heading" />
+
+    <TextView
+        android:id="@+id/artistpage_activty_explanation_textview"
+        style="@style/activty_explanations_style"
+        android:text="@string/artistpage_activity_explanation" />
+
+    <RelativeLayout style="@style/relative_layout_style">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#F5F5F5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/artistpage_activity_main_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/main_string" />
+
+            <Button
+                android:id="@+id/artistpage_activity_art_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/art_string" />
+
+            <Button
+                android:id="@+id/artistpage_activity_artpage_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/artpage_string" />
+
+            <Button
+                android:id="@+id/artistpage_activity_nowplay_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/nowplay_string" />
+
+            <Button
+                android:id="@+id/artistpage_activity_pay_btn"
+                style="@style/menu_buttons_style"
+                android:text="@string/pay_string" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

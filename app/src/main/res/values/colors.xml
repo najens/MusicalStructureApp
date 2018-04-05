@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#00A695</color>
+    <!-- Background color for app -->
+    <color name="colorWhiteBackground">#FFFFFF</color>
+    <!-- Background color for the library categories -->
+    <color name="colorCategories">#FFFFFF</color>
+    <!-- Background color for the now playing page -->
+    <color name="colorDarkBackground">#00332E</color>
+    <!-- Text color for the library categories -->
+    <color name="colorCategoriesText">#009688</color>
+    <!-- Text color for activity explanations -->
+    <color name="colorExplanationText">#E53935</color>
+</resources>

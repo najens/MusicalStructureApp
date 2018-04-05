@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/linear_layout_style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/download_textview"
+        style="@style/category_list_style"
+        android:background="@color/colorCategories"
+        android:text="@string/download_string" />
+
+    <View style="@style/divider_style" />
+
+    <TextView
+        android:id="@+id/buy_textview"
+        style="@style/category_list_style"
+        android:background="@color/colorCategories"
+        android:text="@string/buy_string" />
+
+    <View style="@style/divider_style" />
+
+    <TextView
+        android:id="@+id/view_album_textview"
+        style="@style/category_list_style"
+        android:background="@color/colorCategories"
+        android:text="@string/view_album_string" />
+
+    <View style="@style/divider_style" />
+
+    <TextView
+        android:id="@+id/view_artist_textview"
+        style="@style/category_list_style"
+        android:background="@color/colorCategories"
+        android:text="@string/view_artist_string" />
+
+    <View style="@style/divider_style" />
+
+</LinearLayout>
